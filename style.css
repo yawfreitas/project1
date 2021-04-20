@@ -1,0 +1,94 @@
+* {
+     margin: 0px;
+     padding: 0px;
+ }
+  body {
+ 	color: white;
+ 	background-image: url("man&woman.jpg");
+	 box-sizing: inherit;
+ }
+
+   .header {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+	font-size: 250%;
+ 	width: 40;
+ 	margin: 500px  100px;
+ 	color: white; 
+ 	background: none;
+ 	text-align: left;
+ 	border: none;
+ 	border-radius: none;
+ 	padding: 0px 50px;
+ }
+
+   form, .content {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 200%;
+  	width: 25%;
+  	margin: -900px 1650px;
+  	padding: 100px;
+	background: black;
+  	border: 2px solid white;
+  	border-radius: 100px 100px 100px 100px;
+	border-color: white;
+	
+  }
+
+  .input-group {
+  	margin: 10px opx 10px 0px;
+  }
+
+  .input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px; 
+  }
+
+  .input-group input{
+  	height: 30px;
+  	width: 70%;
+  	padding: 5px 10px;
+	text-align: left;
+  	font-size: 25px;
+  	border-radius: 5px;
+  	border: 1px solid gray;
+  }
+
+  .btn {
+	width: 74%; 
+  	padding: 20px;
+  	font-size: 25px;
+  	color: white;
+  	background: blueviolet;
+  	border: none;
+  	border-radius: 5px;
+  }
+
+  .homepage {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-size: 50px;
+	padding: 500px;
+
+
+  }
+
+
+  .error {
+  	width: 92%;
+  	margin: 0px auto;
+  	padding: 10px;
+  	border: 1px solid #a94442;
+  	color: #a94442;
+  	background: f2dede;
+  	border-radius: 5px;
+  	text-align: left;
+  }
+
+  .success {
+  	color: goldenrod;
+  	background: black;
+  	border: 1px solid goldenrod;
+  	margin-bottom: 20px;
+  }
